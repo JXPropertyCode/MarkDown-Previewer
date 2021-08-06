@@ -11,3 +11,37 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+#editor {
+  display: flex;
+  /* margin: 0 auto; */
+  width: 500px;
+  height: 250px;
+}
+
+/* #preview {
+  display: center;
+  margin: 0 auto;
+  width: 500px;
+  height: 250px;
+} */
+
+
+
+
+/* Here to bottom */
+tr {
+  border-top: 1px solid #c6cbd1;
+  background: #fff;
+}
+
+th,
+td {
+  padding: 6px 13px;
+  border: 1px solid #dfe2e5;
+}
+
+table tr:nth-child(2n) {
+  background: #f6f8fa;
+}
+/* Here, is to be able to render the table outputs, reference here https://stackoverflow.com/questions/63828162/table-tag-is-not-highlighting-or-rendering-in-react-markdown */
